@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>port</title>
+    <title>Ismahan Ahmed | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -14,40 +14,42 @@
 
 </head>
 
-<body class="bg-[#0b1f2a] ">
-    <header id="home" class="min-h-dvh">
-        <nav
+<body class="bg-[#0b1f2a]  text-white overflow-x-hidden">
+     <nav
             class="fixed top-0 left-0 z-50 w-full flex justify-between items-center px-6 sm:px-8 bg-black text-white h-20 sm:h-24">
             <a class="text-2xl hover:text-[#00e5e5] font-bold" href="/index.html">Portfolio</a>
             <ul class="lg:flex gap-8 hidden text-xl">
-                <li class="hover:text-[#04f7f7]"><a href="#home">Home</a></li>
-                <li class="hover:text-[#00e5e5]"><a href="#about">About</a></li>
-                <li class="hover:text-[#00e5e5]"><a href="#skills">Skills</a></li>
-                <li class="hover:text-[#00e5e5]"><a href="#contact">Contact</a></li>
+                <li class="hover:text-[#04f7f7] transition-colors"><a href="#home">Home</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#about">About</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#skills">Skills</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#contact">Contact</a></li>
             </ul>
             <div class="lg:hidden flex">
                 <i class="fa-solid fa-list text-3xl hover:text-[#00e5e5] cursor-pointer "></i>
             </div>
         </nav>
+    <header id="home" class="min-h-screen flex items-center justify-center pt-20">
+       
         <section
-            class="sm:pt-52 pt-32 px-4 sm:px-20 flex flex-col md:flex-row justify-self-center justify-center items-center gap-12 lg:gap-40   ">
-            <article class="text-white pb-12">
-                <h1 class="text-xl">Hello,It's Me</h1>
-                <h2 class="sm:text-4xl text-2xl lg:text-3xl font-bold ">Ismahan Ahmed <br>
-                    <span class="font-normal "> And I am a Computer science Student</span>
-                </h2>
-                <p class="my-3">I am a computer science student</p>
-                 <ul >
+            class="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between gap-12 ">
+            <article class="text-center md:text-left md:w-1/2">
+                <h3 class="text-xl text-[#04f7f7]">Hello,It's Me</h3>
+                <h1 class="font-bold my-2 text-4xl md:text-5xl lg:text-6xl ">Ismahan Ahmed <br>
+                    
+                </h1>
+                <h2 class="mb-4 font-semibold text-2xl md:text-3xl "> And I am a <span class="text-[#04f7f7]" ></span>Computer Science Student </h2>
+                <p class="text-gray-300 max-w-md mx-auto md:mx-0">Building digital solutions with passion and code.</p>
+                <ul>
                     <li class="my-5"><i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7]  h-8 fa-brands fa-instagram"></i>
-                    
-                    <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-whatsapp"></i>
-        
-                    <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-tiktok"></i>
-        
-                     <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-linkedin-in"></i>
                     </li>
 
@@ -57,24 +59,25 @@
                     href="#about">More About Me</a>
 
             </article>
-            <figure class="lg:mt-0 mt-10  ">
-                <img class="w-64 sm:w-[28rem]  md:w-96 border-2 border-[#04f7f7] rounded-full shadow-[0_0_20px_#22d3ee,0_0_40px_#22d3ee]  hover:shadow-[0_0_40px_#22d3ee] transition duration-300  object-cover animate-pulse "
+            <figure class="md:w-1/2 flex justify-center ">
+                <img class="w-64 md:w-80 lg:w-96  bg-cover border-4 border-[#04f7f7] rounded-full shadow-[0_0_20px_#22d3ee,0_0_40px_#22d3ee]  hover:shadow-[0_0_40px_#22d3ee] transition duration-300  object-cover animate-pulse "
                     src="./images/Idma.webp" alt="">
             </figure>
         </section>
     </header>
     <main>
         <section id="about"
-            class="flex  flex-col md:flex-row  gap-14 sm:gap-16 px-4 sm:px-20  items-center justify-center pt-28 md:pt-0 lg:pt-36 lg:gap-32 ">
+            class="py-24 bg-[#0d2633] ">
 
-            <figure>
-                <img class="w-64 sm:w-[28rem]  md:w-96 border-2 border-[#04f7f7] rounded-tl-[2rem] rounded-br-[2rem] shadow-[0_0_20px_#22d3ee] animate-pulse"
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+                <figure class="md:w-1/2">
+                <img class="w-64 md:w-96 rotate-3 border-2 border-[#04f7f7] rounded-tl-[2rem] rounded-br-[2rem] shadow-[0_0_20px_#22d3ee] animate-pulse"
                     src="./images/Idma.webp" alt="">
             </figure>
-            <article class="text-white w-82 sm:w-[28rem] md:w-[23rem]    lg:w-[26rem]">
-                <h1 class="text-4xl sm:text-3xl lg:text-6xl  font-bold">About<span class="text-[#04f7f7]">Me</span></h1>
-                <h2 class="text-xl sm:text-xl my-4">Ismahan Ahmed</h2>
-                <p class="text-gray-300 mb-4">An experienced individual with a strong background in technology focuses
+            <article class="md:w-1/2">
+                <h2 class="font-bold mb-6 text-4xl md:text-5xl">About<span class="text-[#04f7f7]">Me</span></h2>
+                <h3 class="text-2xl font-semibold mb-4">Ismahan Ahmed</h3>
+                <p class="text-gray-300 leading-relaxed">An experienced individual with a strong background in technology focuses
                     on creating digital solutions using logical thinking and problem-solving skills. They work
                     confidently with tools and programming languages such as HTML, CSS, and JavaScript to build modern
                     websites and applications. Through continuous improvement and practical experience, they stay
@@ -84,6 +87,7 @@
             </article>
 
 
+            </div>
         </section>
         <section id="skills" class="flex   justify-center items-center pt-24 sm:px-16 px-4 ">
             <div>
@@ -159,17 +163,17 @@
                     <i class="fa-solid fa-phone text-[#04f7f7]"></i>
                     <p class="text-gray-400">+252615000804</p>
                 </article>
-                <ul >
+                <ul>
                     <li class="my-5"><i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7]  h-8 fa-brands fa-instagram"></i>
-                    
-                    <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-whatsapp"></i>
-        
-                    <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-tiktok"></i>
-        
-                     <i
+
+                        <i
                             class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  border-[#04f7f7] rounded-[50%] w-8 py-[5px] text-[#04f7f7] ml-4 h-8 fa-brands fa-linkedin-in"></i>
                     </li>
 
@@ -202,7 +206,39 @@
 
         </section>
     </main>
-    <footer>
+    <footer class="bg-slate-900">
+        <div class="max-w-7xl mx-auto px-5 py-10 grid grid-cols-3 items-center justify-items-center  gap-6">
+            <article>
+                <h6 class="text-gray-50 font-semibold">Mywebsite</h6>
+                <p class="text-gray-400">My Website is a modern and responsive platform built to deliver clean design,
+                    fast performance, and a
+                    smooth user experience across all devices. </p>
+            </article>
+            <ul class=" text-xl flex flex-col text-gray-400  gap-2">
+                <li class="text-gray-50 font-semibold">Links</li>
+                <li class="hover:text-[#04f7f7] transition-colors"><a href="#home">Home</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#about">About</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#skills">Skills</a></li>
+                <li class="hover:text-[#00e5e5] transition-colors"><a href="#contact">Contact</a></li>
+            </ul>
+            <article>
+                <h4 class="text-gray-50 font-semibold">Follow</h4>
+                <a href="https://github.com/dashboard"><i class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer text-[#04f7f7] text-2xl fa-brands fa-github"></i></a>
+                <a href="#"><i class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer border-2  text-xl border-[#04f7f7]  text-[#04f7f7]  fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="transition-transform duration-500 ease-in-out hover:transform hover:translate-y-[-10px] cursor-pointer text-[#04f7f7] text-2xl fa-brands fa-twitter"></i></a>
+
+
+            </article>
+
+
+
+        </div>
+        <hr class="w-[38rem] bg-[#00e5e5] max-w-7xl h-[1px] mx-auto  ">
+        <div class="text-center text-gray-400 mt-6 font-semibold">
+             © 2026 MyWebsite. All rights reserved.
+        </div>
+
+
 
     </footer>
 
